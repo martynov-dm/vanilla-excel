@@ -11,10 +11,12 @@
   "author": "Dmitrii Martynov <dmitriimartynov1@gmail.com>",
   "browserslist": ">0.25%, not dead",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "@babel/polyfill": "^7.12.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
