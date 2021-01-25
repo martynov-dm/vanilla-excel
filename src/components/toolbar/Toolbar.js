@@ -1,7 +1,7 @@
 import { ExcelComponent } from '../../core/ExcelComponent'
 
-export class Table extends ExcelComponent {
+export class Toolbar extends ExcelComponent {
   toHTML() {
-    return '<h1>Table</h1>'
+    return '<h1>Toolbar</h1>'
   }
 }
